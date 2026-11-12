@@ -1,0 +1,26 @@
+{
+  "version": "V2.2",
+  "base_commit": "abd4242fe2a71d17a23fe3166b366853709e145e",
+  "branch": "fix/v2.2-accounting",
+  "operation": "additions only; preserve v1, v2_1 and main",
+  "validation_python": "3.13.5",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "exchange-calendars": "4.13.1",
+    "pytest": "9.0.2"
+  },
+  "sha256": {
+    "V2_2_START_HERE.md": "19033978e2580f7544c465bde42437865f934c611ea3690315d00ee99e16be89",
+    "v2_2/.gitignore": "bc2f8dd7a185e877cb59a35bc7c186e67978468911dc7ae9e3e4acc7765ee6b6",
+    "v2_2/README.md": "69c46fcee789472c84100a069f97e4b07563256f8249682990e0bf9dc4b0319f",
+    "v2_2/backtest_v2_2.py": "29f619a1dcc517f52ad421961be59a6864272f50daeda1d6402dbdfba12ccb87",
+    "v2_2/requirements-v2_2.txt": "f5a1acd70e969e533c648338f24a90dd99650a296cd46a416b7070421aea8783",
+    "v2_2/tests/conftest.py": "7c7f8eeb9d9875092a13ceacc3561265328b35c178f0236e2b6dd1f06295b656",
+    "v2_2/tests/test_v2_2.py": "f2967bed4155b505b799a3a3d0ef93e83818a72e6ccdc9700742977989eadbae",
+    "v2_2/validation/VALIDATION_REPORT.md": "fd2d0713bf98393fe079db2a1de482325aeab6936e4cedcfec2996050baceb4c",
+    "v2_2/validation/csv_replay_check.txt": "905ec04b6e7d03c0fcf76feb46b0cd26b5c39374051ef7fd684291bbd0884780",
+    "v2_2/validation/demo_output.txt": "45e812b18eb72394b75183811b1a82b1ed74b9302411458e4d27a519902b3758",
+    "v2_2/validation/pytest_output.txt": "5409cd8fced4886733c468c7d235c403b13633d0813c581437ffc3f90edb715f"
+  }
+}

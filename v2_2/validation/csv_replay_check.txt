@@ -1,0 +1,3 @@
+CSV replay: PASS; 60 CSV files matched (atol=1e-9, rtol=1e-11).
+Source: deterministic synthetic demo; no Yahoo data downloaded.
+Includes main account, independent zero-cost reference, five quintile accounts, inputs and factors.

@@ -1,0 +1,2 @@
+# Reuse the exact offline-tested V2.1 dependencies; no extra library is needed.
+-r ../v2_1/requirements-v2_1.txt

@@ -1,0 +1,14 @@
+SYNTHETIC DEMO - NOT REAL MARKET DATA
+V2.2 ACCOUNTING MODEL: fixed units between trades; net of ASSUMED proportional costs.
+No real-market performance certification. No terminal liquidation.
+signal_date execution_date first_return_date  n_eligible           status                                selected
+ 2024-01-31     2024-02-01        2024-02-02          12 target_scheduled S07|S02|S03|S06|S01|S05|S11|S09|S04|S00
+ 2024-02-29     2024-03-01        2024-03-04          12 target_scheduled S07|S05|S08|S01|S09|S00|S03|S02|S11|S04
+ 2024-03-28     2024-04-01        2024-04-02          12 target_scheduled S05|S01|S09|S08|S10|S06|S03|S02|S04|S11
+ 2024-04-30     2024-05-01        2024-05-02          12 target_scheduled S07|S03|S08|S04|S02|S01|S00|S06|S10|S09
+Initial equity: 1000000.000000
+Ending equity (assumed costs): 1041866.651536
+Ending equity (zero-cost reference): 1044012.476605
+Total paid fees: 2096.790090
+Max self-financing residual: 3.748e-10
+Saved diagnostics to /mnt/data/qr_v22_work/demo_final
