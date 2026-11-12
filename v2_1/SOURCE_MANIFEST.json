@@ -1,0 +1,36 @@
+{
+  "version": "V2.1",
+  "publication_date": "2026-11-12",
+  "reference_repository": "ace-wenda-li/multi-factor-backtest",
+  "reference_commit": "9f8b17e8e451aca45afe98a3a1cdd9729056e9d2",
+  "publication_branch": "fix/v2.1-timing",
+  "publication_directory": "v2_1/",
+  "status": "standalone timing validation; gross proxy, not certified net performance",
+  "original_download_archive": {
+    "filename": "QR_V21_full_repacked.zip",
+    "sha256": "7f31d140262e9eb118ab818f0d029dc53e5e108b09c4e1a937842781860c8ee6"
+  },
+  "core_files_identical_to_archive": {
+    "backtest_v2_1.py": {
+      "bytes": 19181,
+      "sha256": "d7f0424367b991bf5a2bf953c6e3d4afcb0fc87133397102b8b52c91cb2bcc8c",
+      "git_blob_sha1": "b940174681ed6527fb8624c06727b768a288bf83"
+    },
+    "tests/test_v2_1.py": {
+      "bytes": 11288,
+      "sha256": "e3a4d830e8a4029b62e2c95062428bf341e0d16d577d8d803925fbb850f8b33d",
+      "git_blob_sha1": "fdf161054981c2757b413a80af6db0b348756436"
+    },
+    "requirements-v2_1.txt": {
+      "bytes": 396,
+      "sha256": "a273bb16ea2fe50760552dabdb394760e55d2e8e31b393b00bbf14d4295615d0",
+      "git_blob_sha1": "86746f3844bfd9e5e2a0259d940516024e958de7"
+    }
+  },
+  "publication_notes": [
+    "Only new files are added; original repository files are retained unchanged.",
+    "Documentation is updated for GitHub delivery and validation was rerun.",
+    "Automatically generated synthetic CSV/XML artifacts from the original archive are not all committed; offline --demo regenerates the synthetic diagnostic CSVs.",
+    "No real market download, revised Sharpe or information ratio is certified."
+  ]
+}

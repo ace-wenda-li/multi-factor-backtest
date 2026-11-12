@@ -1,0 +1,7 @@
+# Local environments, caches and newly generated outputs only.
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+outputs*/
+.DS_Store

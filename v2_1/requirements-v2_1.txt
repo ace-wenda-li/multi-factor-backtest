@@ -1,0 +1,9 @@
+# Direct dependency versions actually used for the offline validation.
+# Python >=3.11. Tested here on Python 3.13.5/Linux, not on your Mac.
+# This pins direct dependencies, not the complete transitive environment.
+numpy==2.3.5
+pandas==2.2.3
+exchange-calendars==4.13.1
+pytest==9.0.2
+# Optional Yahoo download: install yfinance separately.
+# That network path was not executed in this validation.

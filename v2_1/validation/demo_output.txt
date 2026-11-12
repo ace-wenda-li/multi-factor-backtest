@@ -1,0 +1,10 @@
+SYNTHETIC DEMO - NOT REAL MARKET DATA
+V2.1 TIMING VALIDATION ONLY: GROSS proxy, no transaction-cost or Sharpe claim.
+signal_date execution_date first_return_date  n_eligible   status                                selected
+ 2024-01-31     2024-02-01        2024-02-02          12 executed S07|S02|S03|S06|S01|S05|S11|S09|S04|S00
+ 2024-02-29     2024-03-01        2024-03-04          12 executed S07|S05|S08|S01|S09|S00|S03|S02|S11|S04
+ 2024-03-28     2024-04-01        2024-04-02          12 executed S05|S01|S09|S08|S10|S06|S03|S02|S04|S11
+ 2024-04-30     2024-05-01        2024-05-02          12 executed S07|S03|S08|S04|S02|S01|S00|S06|S10|S09
+Saved diagnostics to [validation-output]/demo
+
+Note: the absolute output path has been normalized for publication; all other lines are the CLI demo output.
