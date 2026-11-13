@@ -1,0 +1,3 @@
+# Same version reported by the user in their successful V2.3 Yahoo run.
+# Optional: network adapter is mock-tested, not live-tested in this environment.
+yfinance==1.8.0

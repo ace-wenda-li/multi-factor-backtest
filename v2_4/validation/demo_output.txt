@@ -1,0 +1,11 @@
+SYNTHETIC DEMO -- NOT MARKET EVIDENCE
+V2.4 RETROSPECTIVE AUDIT -- no untouched holdout or certified alpha
+             strategy period  n_days  total_return     cagr  ann_vol  sharpe_rf_zero  max_drawdown  ir_vs_universe        fees
+       dynamic_volume   full      94      0.065611 0.185734 0.045656        3.755301     -0.018910        1.954828 2317.874072
+       static_monthly   full      94      0.064655 0.182885 0.043970        3.842786     -0.019084        1.691072 1070.430364
+      static_buy_hold   full      94      0.066243 0.187623 0.043866        3.942989     -0.018064        1.941615  999.000999
+universe_equal_weight   full      94      0.053672 0.150456 0.040377        3.492165     -0.013569             NaN 1073.442407
+dollar_activity_proxy   full      94      0.057951 0.163024 0.045103        3.371706     -0.019227        0.644412 2087.955085
+Max attribution reconciliation residual: 2.992237568832934e-10
+True float turnover: NOT RUN (historical data unavailable)
+Saved: /mnt/data/v24_validated_demo
