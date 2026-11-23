@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multifactor-audit"
+version = "2.4.0"
+description = "Reproducible equity-factor research with self-financing accounting and attribution controls"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==2.3.5",
+    "pandas==2.2.3",
+    "exchange-calendars==4.13.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.0.2"]
+notebook = ["jupyterlab>=4,<5", "ipykernel>=6,<8", "matplotlib>=3.8,<4"]
+download = ["yfinance==1.8.0"]
+
+[project.scripts]
+factor-audit = "multifactor.audit:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["multifactor*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

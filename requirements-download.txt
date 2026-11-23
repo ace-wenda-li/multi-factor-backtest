@@ -1,0 +1,2 @@
+# Optional Yahoo adapter; the offline demo does not require a network request.
+yfinance==1.8.0
